@@ -1,6 +1,6 @@
 # Supplementary Material for manuscript XXX
 
-- `flat_mirror`: Folder with the files related to the experiment XXXX
+- `1.flat_mirror`: Folder with the files related to the experiment XXXX
 	- `create_flat_mirror.py`: Script used to generate the flat mirror in FreeCAD for the specular deviation scattering analysis (Fig. 7 of the paper).
 	- `flat_mirror.FCStd`: FreeCAD file defining the geometry of the of the falt mirror for the specular deviation scattering analysis.
 	- `materials_flat_mirror_3mrad.zip`: Zip file containing otsun materials for the flat mirror, case study of sigma_s = 3 mrad for specular deviation scattering.
@@ -8,7 +8,7 @@
 	- `flat_mirror.tnh`: Tonatiuh file defining the same geometry as in flat_mirror.FCStd
 	- `output_flat_miror`: Folder with output files for the specular deviation scattering analysis. Case of simulation: Spectral analalysis.  
 
-- `tower_plant`: Folder with the files related to the experiment XXXX
+- `2.tower_plant`: Folder with the files related to the experiment XXXX
 	- `create_scene_TowerPlant.txt`: Script used to generate the Tower Plant.
 	- `heliostats_field.txt`: Text file with the position of each heliostat.
 	-  `Tower_Plant.FCStd`: FreeCAD file defining the geometry of the Tower Plant simulated in the paper.
@@ -16,7 +16,7 @@
 	- `Tower_Plant.tnh`: Tonatiuh file defining the same geometry as in Tower_Plant.FCStd
 	- `output_tower_plant`: Folder with output files for the Tower Plant simulated.
 
-- `PV_cell`: Folder with the files related to the experiment XXXSX
+- `3.PV_cell`: Folder with the files related to the experiment XXXSX
 	- `create_PV_cell.py`: Scrip used to generate the PV cell simulated in the paper. 
 	- `PV_cell.FCStd`: FrrCAD file defining the geometry of the PV dell simulated.
 	- `PV_cell_materials_specular.zip`: Zip file containing otsun materials fort he PV cell with specular back reflcetor.
