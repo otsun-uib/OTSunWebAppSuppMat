@@ -1,5 +1,7 @@
 # Supplementary Material for manuscript XXX
 
+- `0.utils`: Folder with auxiliary files
+	- `faces_of_a_solid.FCMacro`: Macro that adds to the active document the boundary faces of the selected solid.
 - `1.flat_mirror`: Folder with the files related to the experiment XXXX
 	- `create_flat_mirror.py`: Script used to generate the flat mirror in FreeCAD for the specular deviation scattering analysis (Fig. 7 of the paper).
 	- `flat_mirror.FCStd`: FreeCAD file defining the geometry of the of the falt mirror for the specular deviation scattering analysis.
