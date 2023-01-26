@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+
+# Macro Begin
+import FreeCAD
+import Part
+from FreeCAD import Base
+
+doc = App.activeDocument()
+
+solid_selected = Gui.Selection.getSelectionEx()[0].Object
+objs = solid_selected.Shape.Faces
+for obj in objs:
+    doc.addObject('Part::Feature','Face').Shape = obj
+
+# Macro End
