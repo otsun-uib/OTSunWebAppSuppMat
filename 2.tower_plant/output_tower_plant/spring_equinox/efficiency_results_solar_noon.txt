@@ -1,0 +1,9 @@
+52200.0 # Collector Th aperture in m2
+0.0 # Collector PV aperture in m2
+900.139329284215 # Source power emitted by m2
+1000000 # Rays emitted
+0.02 # CSR value
+Tower_Plant.FCStd # FreeCAD file
+materials_tower_plant.zip # Materials file
+#phi theta efficiency_from_source_Th efficiency_from_source_PV
+-90.000 37.390 0.759780 0.000000
