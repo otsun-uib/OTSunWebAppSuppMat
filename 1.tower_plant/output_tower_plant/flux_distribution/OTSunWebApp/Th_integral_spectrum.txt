@@ -1,0 +1,2 @@
+#power_absorbed_from_source_Th irradiance_emitted(W/m2) efficiency_from_source_Th
+0.0 0.0 nan

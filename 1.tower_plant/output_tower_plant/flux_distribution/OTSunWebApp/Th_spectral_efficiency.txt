@@ -1,0 +1,2 @@
+# wavelength(nm) efficiency_Th_absorbed
+500.000000 0.704628

@@ -1,0 +1,12 @@
+323670.2698543315 # Source wavelength aperture in m2
+52200.0 # Collector Th aperture in m2
+0.0 # Collector PV aperture in m2
+500.0 # Wavelength initial in nm
+500.0001 # Wavelength final in nm
+1.0 # Step of wavelength in nm
+2000000 # Rays per wavelength
+-90.0 # Phi (solar azimuth angle)
+14.010000001 # Theta (solar zenith angle)
+0.02 # CSR value
+Tower_Plant.FCStd # FreeCAD file
+materials_tower_plant.zip # Materials file
