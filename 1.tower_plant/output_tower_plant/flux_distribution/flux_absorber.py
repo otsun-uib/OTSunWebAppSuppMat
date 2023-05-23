@@ -60,7 +60,7 @@ file = path + './flux_absorber/Tonatiuh_2M.txt'
 DATA = np.loadtxt(file, usecols=(0, 1, 2),skiprows=1)
 x_list = DATA[:, 0]
 y_list = DATA[:, 1]
-z_weights = DATA[:, 2] * 0.9 / 1000000 # absortance of the receiver = 0.9; W/m2
+z_weights = DATA[:, 2] * 0.9 / 1000000 # absorptance of the receiver = 0.9; W/m2
 
 plt.hist2d(x_list,y_list,bins=[np.arange(-4 + 8/bins_x / 2, 4, 8/bins_x), np.arange(-3 + 6/bins_y/2, 3 , 6/bins_y)], cmap=plt.cm.jet, weights=(z_weights))
 
