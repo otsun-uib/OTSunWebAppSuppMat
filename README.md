@@ -1,5 +1,5 @@
 # Supplementary Material for manuscript "OTSunWebApp: a ray tracing web application for the analysis of concentrating solar-thermal and photovoltaic solar cells"
-## By G. Cardona and R. Pujol
+## By R. Pujol and G. Cardona
 
 - `0.utils`: Folder with auxiliary files
 	- `faces_of_a_solid.FCMacro`: Macro that adds to the active document the boundary faces of the selected solid.
